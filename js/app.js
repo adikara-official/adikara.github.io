@@ -139,12 +139,12 @@ particlesJS("slide-1", {
     "number": {
       "value": 80,
       "density": {
-        "enable": true,
+        "enable": false,
         "value_area": 700
       }
     },
     "color": {
-      "value": "#ffffff"
+      "value": "#fff000"
     },
     "shape": {
       "type": "circle",
@@ -209,7 +209,7 @@ particlesJS("slide-1", {
         "enable": true,
         "mode": "push"
       },
-      "resize": true
+      "resize": false
     },
     "modes": {
       "grab": {
@@ -237,5 +237,5 @@ particlesJS("slide-1", {
       }
     }
   },
-  "retina_detect": true
+  "retina_detect": false
 });
